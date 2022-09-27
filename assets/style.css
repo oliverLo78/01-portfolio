@@ -4,11 +4,11 @@
     margin: 0;
 }
 
-#container {
+/* #container {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-}
+} */
 
 main {
     display: flex;
@@ -18,10 +18,17 @@ main {
 
 .employee h1 {
     display: inline;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
 }
 
+li:hover {
+  border: 2px solid blue;
+  background: aqua;
+}
+
 .header {
+    display: flex;
     color: blue;
     background-color: grey;
     background-size: 200%;
@@ -31,8 +38,11 @@ main {
 }
 
 h2 {
+    flex: 1;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 60px;
-    border-right: 5px solid blue;
+    border-right: 5px solid #9e9e9e;
 }
 
 .cool {
@@ -53,7 +63,11 @@ h2 {
 }
   
 .header h1{
-    margin-right: 700px ;
+    flex: 1;
+    width: 100px;
+    margin-right: 1320px;
+    background-color: aqua;
+    padding: 10px;
 }
 
 .oliver-navs {
@@ -64,6 +78,7 @@ h2 {
 }
 
 .about {
+    text-align: left;
     display: flex;
     margin-left: 50px;
     margin-right: 50px;
@@ -76,25 +91,36 @@ h2 {
 }
 
 p {
+    font-size: 24px;
     width: 100%;
-    width: 1000px;
     height: 200px;
+}
+
+.contact-me-info {
+    text-align: center;
+    word-spacing: 50px;
+    padding: 50px;
+}
+
+.contact-me-info a:hover {
+    border: 2px solid blue;
+    background: aqua;
 }
 
 .work {
     display: flex;
     left: 400px;
-    margin-left: 172px;
-    border-radius: 10px solid darkgrey;    
+    margin-left: 85px;   
 }
 
+/* width of large image place holder set to 50vw */
 .images {
     flex: 2 1 900px;
     padding: 10px;
     width: 50vw;
     align-items: center;
     border-style: solid;
-    border-width: 10px;
+    border-width: 3px;
 }   
 
 .projects-container {
@@ -104,14 +130,17 @@ p {
 
 .images-sm {
     width: 25vw;
+    border-style: solid;
+    border-width: 3px;
 }
 
-/* .projects { 
-    display: flex;
+ .projects { 
+    /* display: flex; */
+    flex-wrap: wrap;
     margin-left: 50px;
     margin-right: 50px;
     padding: 100px;
-} */
+} 
 
 .work-projects {
     position: relative;
@@ -131,30 +160,27 @@ p {
     padding: 100px;
 }
 
-footer {
-    display: flex;
-
-}
 /* Tablets - header changes color */
-@media screen and (min-width: 992px) {
+@media screen and (max-width: 992px) {
     .work-pics {
         width: 50%;
     }
-    .header {
-        background: gray;
-    }
+/* Change the color of the header */
+      header {
+        background: aquamarine;
+    } 
 }
 
 @media screen and (max-width: 768px) {
-    main, .oliver-navs {
+    main, .oliver-navs, body {
         flex-direction: column;
     }
-    .header {
+     .header {
         background: red;
-    }
-    footer {
+    } 
+     footer {
         background-color: darkcyan;
-    }
+    
 }
 
 @media screen and (max-width: 576px) {
