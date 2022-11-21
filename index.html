@@ -7,88 +7,103 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./assets/resets.css">
   <link rel="stylesheet" href="./assets/style.css">
-  <title>Portfolio</title>
+  <title>Oliver Lopez</title>
 </head>
 <!-- Header-->
 
 <body>
   <!-- logo, navigation bar -->
+  <header>
   <div class="container">
-    <header class="header">
+    <figure class="profile"><img class="images" src="" alt="Oliver profile picture"></figure>
       <h1 class="header">Oliver Lopez</h1>
-      <nav class="oliver-navs">
-        <ul>
+      </div>
+      <nav>
           <!-- links to different sections in the page -->
-          <li class="oliver-navs"><a href="#aboutme">About Me</a></li>
-          <li class="oliver-navs"><a href="#">Work</a></li>
-          <li class="oliver-navs"><a href="#">Contact Me</a></li>
-          <li class="oliver-navs"><a href="#">Resume</a></li>
-        </ul>
+          <a class="oliver-navs" href="#aboutMe">About Me</a>
+          <a class="oliver-navs" href="#work">Work</a>
+          <a class="oliver-navs" href="#contactMe">Contact Me</a>
+          <a class="oliver-navs" href="#resume">Resume</a>
       </nav>
     </header>
 
     <!-- subtitle heading of position title -->
 
     <section class="cool">
-      <h3 class="cool-subtitle">Web Developer</h3>
+      <figure class="banner">
+        <img class="images" src="./assets/images/SanFrancisco_Header_1.jpg" alt="goldenGate bridge">
+        <figcaption class="cool subtitle bg">Web Developer</figcaption>
+        </figure>
     </section>
 
     <!-- the main section of webpage has three sections the about me, Work, Contact me -->
     <main>
 
       <!-- about me section -->
-      <section class="about">
-        <h2>About Me</h2>
-        <p id="about-me">
-          Ready to embark on the journey of Software Engineer. I enjoy creating Websites
-          and software applications to improve the end user experience. Very excited
-          to be a part of UCF coding bootcamp. I'm a catalyst with plenty of energy in
-          learning HTML & CSS and Git, JavaScript & Web APIs, Node.js
+      <section>
+        <aside id="about-me">
+          <h2>About Me</h2>
+        </aside>
+          <article>
+            <p>
+            Ready to embark on the journey of Software Engineer. I enjoy creating Websites
+            and software applications to improve the end user experience. Very excited
+            to be a part of UCF coding bootcamp. I'm a catalyst with plenty of energy in
+            learning HTML & CSS and Git, JavaScript & Web APIs, Node.js
 
-          There will be challenging projects along the road to mastery, but its in those
-          but is in those struggles that we grow the most. the amount of fulfillment in the
-          final product is worth the effort. I am just happy to be able to apply newest
-          technologies such as Third-Party APIs and Server-Side APIs, Object-Oriented Programming,
-          Express.js and SQL to kick things off.
-        </p>
+            There will be challenging projects along the road to mastery, but its in those
+            but is in those struggles that we grow the most. the amount of fulfillment in the
+            final product is worth the effort. I am just happy to be able to apply newest
+            technologies such as Third-Party APIs and Server-Side APIs, Object-Oriented Programming,
+            Express.js and SQL to kick things off.
+            </p>
+          </article>
       </section>
 
       <!-- portfolio section with class of project and h2 heading for work -->
-      <section class="work">
-        <h2>Work</h2>
-        <section class="projects">
-          <a href="https://github.com/oliverLo78/01-refactor.git" target="_blank">
-            <img class="images" id="images-lg" src="./assets/images/01_challengeImg.png"
-              alt="image placeholder of refactor website">
-          </a>
-
-          <div id="images-container">
-            <div class="projects-container">
-              <a href=" " target="_blank">
-                <img class="images-sm" src="./assets/images/images-sm.png" alt="placeholder for small image one">
-              </a>
-              <img class="images-sm" src="./assets/images/images-sm-two.png" alt=" placeholder for small images two">
+      <section>
+        <aside id="work">
+          <h2>Work</h2>
+        </aside>
+        <article class="projects">
+            <div class="portfolio mm"><a href="https://github.com/oliverLo78/01-refactor.git" target="_blank">
+              <img class="images" id="images-lg" src="./assets/images/01_challengeImg.png"
+              alt="image placeholder of refactor website"></a><figcaption class="cool subtitle pfl">Refactor</figcaption>
             </div>
-          </div>
-
-            <div class="projects-container">
-              <img class="images-sm" src="./assets/images/images-sm-three.png" alt="placeeholder for small images three">
-                <a href=" " target="_blank">
-                <img class="images-sm" src="./assets/images/images-sm-four.png" alt="placeholder for small images four">
-                </a>
+            <div class="portfolio"><a href="https://github.com/oliverLo78/01-portfolio.git" target="_blank">
+                <img class="images" src="./assets/images/images-sm.png" alt="placeholder for small image one"></a>
+                <figcaption class="cool subtitle pfl chl">Portfolio</figcaption>
             </div>
-        </main>
+            <div class="portfolio"><a href="https://oliverlo78.github.io/prework-study-guide/" target="_blank">
+              <img class="images" src="./assets/images/images-sm-two.png" alt=" placeholder for small images two"></a>
+              <figcaption class="cool subtitle pfl chl">Pre-Work Study Guide</figcaption>
+            </div>
+            <div class="portfolio"><a href="https://jkanvision.github.io/The-SpeakEasy-Project/" target="_blank"></a>
+              <img class="images" src="./assets/images/Screenshot_20221120_081126.png" alt="placeholder for small images three">
+                <figcaption class="cool subtitle pfl chl">SpeakEasy project</figcaption>
+            </div>
+            <div class="porfolio"><a href="https://rose-to-rough.herokuapp.com/" target="_blank"></a>
+                <img class="images" src="./assets/images/images-sm-four.png" alt="placeholder for small images four">
+                <figcaption class="cool subtitle pfl chl">Rose to Rough</figcaption>
+            </div>
+            </article>
     </section>
-    <div>
+
       <!-- contact section -->
-      <footer class="contact-me">
+      <footer>
+        <aside id="contact-me">
         <h2>Contact Me</h2>
-          <p class="contact-me-info"><a href="407.716.7133">407.716.7133</a>
-            <a href="mailto:oliverberto@gmail.com">oliverberto@gmail.com</a>
-            <a href="https://github.com/oliverLo78">GitHub</a>
-            <a href="https://www.linkedin.com/in/oliver-lopez78/">LinkedIn</a>
-          </p>
+        </aside>
+          <article>
+            <nav>
+              <a class="contact-me-info" href="mobile: 4077167133">407.716.7133</a>
+              <a class="contact-me-info" href="mailto: oliverberto@gmail.com">oliverberto@gmail.com</a>
+              <a class="contact-me-info" href="https://github.com/oliverLo78">GitHub</a>
+              <a class="contact-me-info" href="https://www.linkedin.com/in/oliver-lopez78/">LinkedIn</a>
+            </nav>
+          </article>
         </footer>
-      </div>
+
+    </main>
   </body>
 </html>
