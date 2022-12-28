@@ -224,7 +224,7 @@ figcaption.bg {
 /* positions caption on large work image */
 figcaption.pfl {
     left: -5px;
-    top: 100px;
+    top: 100px; 
     font-size: 24px;
     font-weight: 500;
 }
