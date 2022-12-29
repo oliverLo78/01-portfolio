@@ -18,14 +18,14 @@ Provide a short description explaining the what, why, and how of your project. U
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
 
-- [Installation](#installation)
+- [Portfolio](#portfolio)
 - [Usage](#usage)
-- [Credits](#credits)
+- [Screenshots](#screenshots)
 - [License](#license)
 
-## Installation
+## Portfolio
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+https://oliverlo78.github.io/01-portfolio/
 
 ## Usage
 
@@ -36,4 +36,12 @@ right corner to find out about me or simply scroll down to the work
 section and click any one the images to visit some of the projects 
 I have been working on. 
 
-![Alt text](/assets/images/?raw=true "Portfolio")
+## Screenshots
+
+![portfolio-scrShot-1](https://user-images.githubusercontent.com/109435666/206916985-c583f1f6-9c76-440b-ad50-a55880e0ce88.png)
+
+![portfolio-scrShot-2](https://user-images.githubusercontent.com/109435666/206917000-e5cbc9b8-54d5-4d3e-ae70-d1f064c0906b.png)
+
+![portfolio-scrShot-3](https://user-images.githubusercontent.com/109435666/206917023-66d89a2c-99ca-4005-b2bd-9ad783ce33b5.png)
+
+
