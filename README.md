@@ -44,6 +44,4 @@ I have been working on.
 ![portfolio-scrShot-2]![Screenshot 2023-07-25 115424](https://github.com/oliverLo78/01-portfolio/assets/109435666/8c8cc635-bd11-4538-a846-7f40bce9b0a4)
 
 
-![portfolio-scrShot-3](https://user-images.githubusercontent.com/109435666/206917023-66d89a2c-99ca-4005-b2bd-9ad783ce33b5.png)
-
 
