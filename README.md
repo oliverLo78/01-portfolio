@@ -25,7 +25,7 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Portfolio
 
-https://oliverlo78.github.io/01-portfolio/
+![Portfolio](https://oliverlo78.github.io/01-portfolio/)
 
 ## Usage
 
