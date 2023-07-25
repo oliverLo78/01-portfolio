@@ -38,9 +38,11 @@ I have been working on.
 
 ## Screenshots
 
-![portfolio-scrShot-1](https://user-images.githubusercontent.com/109435666/206916985-c583f1f6-9c76-440b-ad50-a55880e0ce88.png)
+![portfolio-scrShot-1]![Screenshot 2023-07-25 115411](https://github.com/oliverLo78/01-portfolio/assets/109435666/8b739eef-eeb4-43d0-ab3b-3ddaa45589cd)
 
-![portfolio-scrShot-2](https://user-images.githubusercontent.com/109435666/206917000-e5cbc9b8-54d5-4d3e-ae70-d1f064c0906b.png)
+
+![portfolio-scrShot-2]![Screenshot 2023-07-25 115424](https://github.com/oliverLo78/01-portfolio/assets/109435666/8c8cc635-bd11-4538-a846-7f40bce9b0a4)
+
 
 ![portfolio-scrShot-3](https://user-images.githubusercontent.com/109435666/206917023-66d89a2c-99ca-4005-b2bd-9ad783ce33b5.png)
 
