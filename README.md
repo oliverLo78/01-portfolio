@@ -38,10 +38,10 @@ I have been working on.
 
 ## Screenshots
 
-![portfolio-scrShot-1]![Screenshot 2023-07-25 115411](https://github.com/oliverLo78/01-portfolio/assets/109435666/8b739eef-eeb4-43d0-ab3b-3ddaa45589cd)
+![Screenshot 2023-07-25 115411](https://github.com/oliverLo78/01-portfolio/assets/109435666/8b739eef-eeb4-43d0-ab3b-3ddaa45589cd)
 
 
-![portfolio-scrShot-2]![Screenshot 2023-07-25 115424](https://github.com/oliverLo78/01-portfolio/assets/109435666/8c8cc635-bd11-4538-a846-7f40bce9b0a4)
+![Screenshot 2023-07-25 115424](https://github.com/oliverLo78/01-portfolio/assets/109435666/8c8cc635-bd11-4538-a846-7f40bce9b0a4)
 
 
 
